@@ -10,40 +10,44 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h2>LEARN MORE</h2>
-  <form action="">
-    <fieldset>
-      <div>
-        <label for="email">COMPANY EMAIL</label>
+  <div class="container">
+    <h2>LEARN MORE</h2>
+    <form action="">
+      <fieldset>
         <div>
-          <input type="text" name="email" id="email" placeholder="sally@company.co">
+          <label for="email">COMPANY EMAIL</label>
+          <div>
+            <input type="text" name="email" id="email" placeholder="sally@company.co">
+          </div>
         </div>
-      </div>
-      <div>
-        <label for="name">NAME</label>
         <div>
-          <input type="text" name="name" id="name" placeholder="Sally Smith">
+          <label for="name">NAME</label>
+          <div>
+            <input type="text" name="name" id="name" placeholder="Sally Smith">
+          </div>
         </div>
-      </div>
-      <div>
-        <label for="location">WHERE ARE YOU HIRING?</label>
         <div>
-          <input type="text" name="location" id="location" placeholder="City, Country">
+          <label for="location">WHERE ARE YOU HIRING?</label>
+          <div>
+            <input type="text" name="location" id="location" placeholder="City, Country">
+          </div>
         </div>
-      </div>
-      <div>
-        <label for="hires">HOW MANY ENGINEERS ARE YOU HIRING IN THE NEXT 6 MONTHS?</label>
         <div>
-          <select name="hires" id="hires">
-            <option value="1-2 Engineers">1-2 Engineers</option>
-            <option value="0 Engineers">0 Engineers</option>
-            <option value="3 or more Engineers">3 or more Engineers</option>
-          </select>
+          <label for="hires">HOW MANY ENGINEERS ARE YOU HIRING IN THE NEXT 6 MONTHS?</label>
+          <div>
+            <select name="hires" id="hires">
+              <option value="1-2 Engineers">1-2 Engineers</option>
+              <option value="0 Engineers">0 Engineers</option>
+              <option value="3 or more Engineers">3 or more Engineers</option>
+            </select>
+          </div>
         </div>
-      </div>
-      <button type="submit" name="submit">SUBMIT</button>
+        <div class="button">
+          <button type="submit" name="submit">SUBMIT</button>
+        </div>
+      </fieldset>
+    </form>
+  </div>
 
-    </fieldset>
-  </form>
 </body>
 </html>

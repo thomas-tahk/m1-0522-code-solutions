@@ -1,3 +1,8 @@
+.container {
+  width: 860px;
+  margin: auto;
+}
+
 h2 {
   color: orangered;
   font-family: "Brandon Grotesque", sans-serif;
@@ -29,7 +34,7 @@ input {
   padding: 16px 0 12px 10px;
   border-radius: 5px;
   border: 1.5px solid #ccc;
-  width: 420px;
+  width: 500px;
 }
 
 input::placeholder {
@@ -43,7 +48,7 @@ select {
   padding: 10px 0 10px 2px;
   margin: auto;
   border-radius: 5px;
-  width: 420px;
+  width: 500px;
   font-family:
     "Brandon Grotesque",
     sans-serif;
@@ -53,6 +58,10 @@ select {
 
 select > option {
   padding-left: 0;
+}
+
+.button {
+  text-align: right;
 }
 
 button {
@@ -66,5 +75,4 @@ button {
   width: 100px;
   margin: 10px 0;
   padding: 1px 0 4px;
-  float: right;
 }
