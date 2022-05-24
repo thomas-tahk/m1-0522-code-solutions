@@ -1,0 +1,57 @@
+.container {
+  max-width: 800px;
+  margin: 1px auto;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.column-link {
+  width: calc(100%/3);
+}
+
+.column-super-smash {
+  width: calc(100%/3);
+}
+
+.column-yoshi {
+  width: calc(100%/3);
+}
+
+.column-kirby {
+  width: calc(100%/4);
+}
+
+.column-fox {
+  width: calc(100%/4);
+}
+
+.column-pikachu {
+  width: calc(100%/4);
+}
+
+.column-ness {
+  width: calc(100%/4);
+}
+
+.column-dk-text {
+  width: calc(100%/3*2);
+}
+
+.column-dk {
+  width: calc(100%/3);
+}
+
+.column-mario {
+  width: calc(100%/3);
+}
+
+.column-mario-text {
+  width: calc(100%/3*2);
+}
+
+img {
+  width: 100%;
+}
