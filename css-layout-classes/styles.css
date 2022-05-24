@@ -8,47 +8,15 @@
   width: 100%;
 }
 
-.column-link {
+.column-third {
   width: calc(100%/3);
 }
 
-.column-super-smash {
-  width: calc(100%/3);
-}
-
-.column-yoshi {
-  width: calc(100%/3);
-}
-
-.column-kirby {
+.column-fourth {
   width: calc(100%/4);
 }
 
-.column-fox {
-  width: calc(100%/4);
-}
-
-.column-pikachu {
-  width: calc(100%/4);
-}
-
-.column-ness {
-  width: calc(100%/4);
-}
-
-.column-dk-text {
-  width: calc(100%/3*2);
-}
-
-.column-dk {
-  width: calc(100%/3);
-}
-
-.column-mario {
-  width: calc(100%/3);
-}
-
-.column-mario-text {
+.column-two-thirds {
   width: calc(100%/3*2);
 }
 
