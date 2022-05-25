@@ -1,0 +1,79 @@
+body {
+  font-family: Karla, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  width: 100%;
+}
+
+.column-half {
+  width: 50%;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.flex-element {
+  display: flex;
+}
+
+section {
+  margin: 20px auto;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.text-section {
+  margin: 20px 1px 1px;
+}
+
+h1 {
+  font-weight: 950;
+  font-size: 260%;
+  letter-spacing: 1.6px;
+  margin: 20px 0 16px;
+}
+
+h3 {
+  font-size: 80%;
+}
+
+p {
+  line-height: 1.7;
+  font-weight: 100;
+  font-size: 80%;
+  letter-spacing: -0.4px;
+}
+
+.button {
+  color: red;
+  border-color: red;
+  width: 148px;
+  height: 32px;
+  font-family: Karla, sans-serif;
+  font-weight: 600;
+  font-size: 72%;
+  margin: 20px 0 20px 16px;
+  letter-spacing: 0.5px;
+}
