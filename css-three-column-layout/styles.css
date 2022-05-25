@@ -1,5 +1,8 @@
 body {
   background-color: #1297db;
+  font-family:
+    Lato,
+    sans-serif;
 }
 
 .container {
@@ -17,6 +20,10 @@ body {
 
 .white-text {
   color: white;
+}
+
+.lightgrey-text {
+  color: lightgrey;
 }
 
 .center-text {
@@ -43,10 +50,16 @@ body {
   margin: 25px 0 0;
 }
 
+.reduced-font-weight {
+  font-weight: 300;
+}
+
 h3 {
-  margin: 24px auto 10px;
+  margin: 24px 14px 10px;
 }
 
 p {
-  margin: 10px auto;
+  margin: 10px 14px;
+  font-size: small;
+  line-height: 1.3;
 }
