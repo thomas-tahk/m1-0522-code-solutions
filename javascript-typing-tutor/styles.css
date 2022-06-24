@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container > div {
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+
+h1 {
+  margin-top: 200px;
+  vertical-align: middle;
+}
+
+span {
+  font-family: "Courier New", Courier, monospace;
+  white-space: pre;
+}
+
+.wrong {
+  color: red;
+}
+
+.right {
+  color: limegreen;
+}
+
+.current {
+  border-bottom: 3px solid;
+}
+
+.current-wrong {
+  border-bottom: 3px solid red;
+}
