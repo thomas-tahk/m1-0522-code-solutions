@@ -1,0 +1,55 @@
+button.open {
+  background-color: royalblue;
+  color: whitesmoke;
+  width: 166px;
+  height: 44px;
+  border-radius: 5px;
+  border-style: none;
+  font-size: larger;
+  font-family: "Gill Sans", sans-serif;
+  box-shadow: 1px 2px rgb(0 0 0 / 36%);
+}
+
+.modal-hidden {
+  display: none;
+}
+
+.modal-shown {
+  display: block;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(0 0 0 / 77%);
+}
+
+.modal-content {
+  position: relative;
+  margin: auto;
+  top: 15%;
+  width: 66%;
+  height: 40vh;
+  background-color: white;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button.no {
+  background-color: rgb(255 0 0 / 65%);
+  color: whitesmoke;
+  box-shadow: 1px 2px rgb(128 128 128 / 46.7%);
+  font-family: "Lucida Sans", sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  border-style: none;
+  border-radius: 4px;
+  margin-top: 50px;
+  height: 42px;
+  width: 88px;
+}
